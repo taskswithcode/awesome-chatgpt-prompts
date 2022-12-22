@@ -44,6 +44,27 @@ The _unofficial_ ChatGPT desktop application provides a convenient way to access
 
 # Prompts
 
+## Act as a blind image captioner with spatial awareness
+Contributed by: [@taskswithcode](https://github.com/taskswithcode)
+
+<img width="800" alt="ChatGPT as blind image captioner with spatial awareness" src="https://raw.githubusercontent.com/taskswithcode/image_assets/main/.github/images/ChatGPTSpatialAwareness.png">
+
+
+
+[🤗 HuggingFace app Object detection app](https://huggingface.co/spaces/taskswithcode/DeticChatGPT) for an image to create ChatGPT prompt
+
+_This approach was originally reported on a [Twitter thread by Mohammad Reza Taesiri](https://twitter.com/TasksWithCode/status/1602757853252444160?s=20&t=T689Q-NfFTwv0RLtFTYmdg)_
+
+Example prompt generated for an image
+
+>Imagine you are a blind but intelligent image captioner who is only given the bounding box and description of each object in a scene. Note the exact position and the sizes of some objects are also provided. Create a description of the scene using the relative positions and sizes of objects
+brown and white cow,X1:92.38,Y1:80.23,X2:296.42,Y2:207.79
+wire fence around pasture,X1:28.13,Y1:50.47,X2:340.63,Y2:229.35
+the tag is white,X1:150.28,Y1:101.69,X2:166.35,Y2:130.17
+the head of a cow,X1:95.28,Y1:90.34,X2:165.57,Y2:150.47
+shadow of the cow,X1:86.09,Y1:141.1,X2:295.54,Y2:220.52
+a grassy field,X1:29.96,Y1:23.89,X2:337.67,Y2:76.8
+
 ## Act as a Linux Terminal
 Contributed by: [@f](https://github.com/f)
 Reference: https://www.engraved.blog/building-a-virtual-machine-inside/
